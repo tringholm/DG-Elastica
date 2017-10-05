@@ -8,7 +8,7 @@ The package contains 12 MATLAB files and 5 C files, with the following structure
 
 - eulerElastica.m is the main file, and the only one you need to use to apply the algorithm
 - defaultOptions.m supplies an option struct which may be useful to tweak parameters
-- demo.m is a demonstration file showing how to use the algorithm with examples
+- elasticaDemo.m is a demonstration file showing how to use the algorithm with examples
 - eulerElasticaMatlab/Mex/MexPara.m are lower level files executing the algorithm in MATLAB, MEX and Parallel versions, respectively
 - coordFxn.m, dgstep.m, energyFxn.m, fzeroFast.m, gradCurv.m, and gradTV.m are all auxiliary functions used mostly in eulerElasticaMatlab.m
 - dgstepMex/MexPara.c, gradCurvMex/MexPara.c and partitionMex.c are C functions for speeding up critical parts of the code in a MEX environment.
