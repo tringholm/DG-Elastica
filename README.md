@@ -14,3 +14,5 @@ The package contains 12 MATLAB files and 5 C files, with the following structure
 - dgstepMex/MexPara.c, gradCurvMex/MexPara.c and partitionMex.c are C functions for speeding up critical parts of the code in a MEX environment.
 
 This is the first release, so if you have comments and suggestions for improvements, please contact me and I will try to accommodate them.
+
+[1] V. Grimm, R. I. McLachlan, D. I. McLaren, G. Quispel, and C. Schönlieb, “Discrete gradient methods for solving variational image regular- isation models,” Journal of Physics A: Mathematical and Theoretical, vol. 50, no. 29, p. 295201, 2017.
