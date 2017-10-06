@@ -7,7 +7,7 @@ Recommended packages/tools:
 
 EulerElastica is a MATLAB based image analysis tool for denoising and/or inpainting damaged images using Euler’s elastica as a regularisation prior in a variational image analysis setting. The algorithm used for minimizing the resulting energy is the Discrete Gradient algorithm outlined in [1].
 
-To get started, open the demo.m file and read the commented code there.
+To get started, open the elasticaDemo.m file and read the commented code there.
 
 The package contains 12 MATLAB files and 5 C files, with the following structure:
 
